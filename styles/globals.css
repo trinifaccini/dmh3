@@ -1,0 +1,146 @@
+/* ESTE ES EL QUE TIENE QUE SER BLANCO */
+/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+    background-color: white;
+    border-radius: 10px;
+    border-radius: 10px;
+} */
+/* 
+.css-1tsq5ia-MuiFormControl-root-MuiTextField-root{
+    background-color: #201F22;
+    border-radius: 10px;
+    border-radius: 10px;
+} */
+
+.MuiInputBase-input {
+    border-radius: 10px;
+}
+
+.css-1p5q5e5-MuiStack-root>:not(style)+:not(style) {
+    margin: 0
+}
+
+.MuiInputBase-inputSizeSmall.css-nz481w-MuiInputBase-input-MuiInput-input {
+    padding: 0;
+}
+
+.css-1pxa9xg-MuiAlert-message {
+    padding: 0.1rem,
+}
+
+/*Menu*/
+.bold span{
+    font-weight: 700 !important;
+}
+
+/* Mobile */
+@media screen and (max-width: 640px) {
+
+    .MuiTypography-h1 {
+        font-size: 21pt;
+        font-weight: '500';
+    }
+
+    .MuiTypography-h2 {
+        font-size: 20pt;
+    }
+
+    .MuiTypography-h3 {
+        font-size: 17pt;
+    }
+
+    .MuiTypography-h4 {
+        font-size: 14pt;
+    }
+
+    .MuiTypography-h5 {
+        font-size: 12pt;
+    }
+
+    .MuiTypography-h6 {
+        font-size: 10pt;
+        font-weight: initial;
+    }
+
+    .MuiTypography-body1 {
+        font-size: 12pt;
+    }
+
+    .MuiTypography-body2 {
+        font-size: 9pt;
+    }
+
+    .css-1p5q5e5-MuiStack-root>:not(style)+:not(style) {
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+
+    .MuiTypography-h1 {
+        font-size: 34pt;
+    }
+
+    .MuiTypography-h2 {
+        font-size:27pt;
+    }
+
+    .MuiTypography-h3 {
+        font-size: 24pt;
+    }
+
+    .MuiTypography-h4 {
+        font-size: 14pt;
+    }
+
+    .MuiTypography-h5 {
+        font-size: 12pt;
+    }
+
+    .MuiTypography-body1 {
+        font-size: 13pt;
+    }
+
+    .MuiTypography-body2 {
+        font-size: 10pt;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) and (max-width: 1400px)  {
+
+    .MuiTypography-h1 {
+        font-size: 26pt;
+    }
+
+    .MuiTypography-h2 {
+        font-size:20pt;
+    }
+
+    .MuiTypography-h3 {
+        font-size: 16pt;
+    }
+
+    .MuiTypography-h4 {
+        font-size: 14pt;
+    }
+
+    .MuiTypography-h5 {
+        font-size: 12pt;
+    }
+
+    .MuiTypography-h6 {
+        font-size: 10pt;
+    }
+
+    .MuiTypography-body1 {
+        font-size: 10pt;
+    }
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

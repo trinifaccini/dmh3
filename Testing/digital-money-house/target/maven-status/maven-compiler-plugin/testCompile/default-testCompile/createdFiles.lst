@@ -1,0 +1,5 @@
+com\Pages\RegisterPage.class
+com\Pages\HomePage.class
+com\Tests\RegisterTest.class
+com\Base\BasePage.class
+com\Tests\Test01.class

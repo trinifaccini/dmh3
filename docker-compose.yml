@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  front:
+    build: .
+    ports:
+    - 3000:3000
+    image: frnpnk/dmh-g3
+
+    environment:
+      - EMAILUSER=digitalmoneyhouseg3@gmail.com
+      - EPASSWORD=qtjfmknjodrqwaxm

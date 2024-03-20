@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "integrador/components/*": [
+        "components/*"
+      ],
+      "integrador/services/*": [
+        "services/*"
+      ],
+      "integrador/pages/*": [
+        "pages/*"
+      ],
+      "integrador/styles/*": [
+        "styles/*"
+      ],
+      "integrador/test/*": [
+        "test/*"
+      ],
+      "integrador/context/*": [
+        "context/*"
+      ],
+      "integrador/types/*": [
+        "context/*"
+      ],
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "types.d.ts"
+, "components/utils.js", "pages/api/email.ts"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
